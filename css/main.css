@@ -41,13 +41,14 @@ a.contact {
 
 div {
     background: white;
+    border-radius: 3px;
     width: 500px;
     height: 500px;
     margin: auto;
     margin-top: 30px;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-       -moz-box-shadow: 0 8px 6px -6px black;
-            box-shadow: 0 8px 6px -6px black;
+    -webkit-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
 }
 
 p {
