@@ -60,10 +60,13 @@ p {
     padding-top: 30px;
     padding-bottom: 30px;
     max-width: 950px;
-    margin: 20px;
+    margin: auto;
     color: white;
     line-height: 1.4em;
     text-shadow: .5px .5px 20px #000000;
+}
+div p {
+    margin: 20px;
 }
 
 .selected {
