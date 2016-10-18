@@ -1,5 +1,5 @@
 html { 
-  background: url(../IMG_0115.JPG) no-repeat center center fixed; 
+  background: url(../IMG_1692.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,24 +13,27 @@ body {
 }
 
 a {
-    font-size: 36px;
+    font-size: 56px;
     padding: 10px;
     color: #ffffff;
+    text-shadow: .5px .5px 20px #000000;
+    text-decoration: none;
 }    
 
 
 
 h1 a {
-    font-size: 72px;
+    font-size: 112px;
     text-decoration: none;
 }
 
 a:hover {
-    text-shadow: .5px 1px #000000;
+    text-shadow: none;
+    text-decoration: underline;
 }
 
 a.contact {
-    font-size: 24px;
+    font-size: 32px;
     border: 2px solid white;
     padding: 2px;
     padding-left: 10px;
@@ -55,11 +58,15 @@ div {
 }
 
 p {
-    font-size: 22px;
+    font-size: 32px;
     padding-top: 30px;
-    max-width: 350px;
+    max-width: 950px;
     margin: auto;
     color: white;
     line-height: 1.4em;
-    text-shadow: .5px .5px #000000;
+    text-shadow: .5px .5px 20px #000000;
+}
+
+.selected {
+    text-decoration: underline;
 }
