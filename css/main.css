@@ -58,6 +58,7 @@ div {
 p {
     font-size: 32px;
     padding-top: 30px;
+    padding-bottom: 30px;
     max-width: 950px;
     margin: 20px;
     color: white;
